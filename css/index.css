@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.card{
+    padding: 3rem;
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+}
+.card > div {
+    border:2px dashed  #1b2550;
+    padding: 1rem;
+}
+header{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+ h1{
+    margin-top: 5rem;
+    text-shadow:  0 1px 10px  rgb(0, 179, 255) ;
+    font-size: 6rem;
+}
+.traductor{
+    margin: 0 10rem 0 0 ;
+}
+.traductor>input{
+    margin:1rem 0.9rem 1rem 0;
+}
+#word{
+    width: 20rem;
+    padding: 0.5rem;
+    border: 0;
+    border-bottom: 2px solid gray;
+}
+.result{
+    background-color: rgb(199, 195, 195);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    width: 20rem;
+    margin-left: 1rem;
+}
+.list-word{
+    margin-top: 3rem;
+}
+
+.list-word>h2{
+    margin-bottom: 2rem;
+    
+}
+.list-word>input{
+    margin: 0 8px 8px 8px;
+}
+.container-list-word{
+    background-color: rgb(199, 195, 195);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 25rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+button{
+    border: none;
+    background-color: rgb(0, 179, 255);
+    padding: 1rem;
+    margin: 1rem;
+    width: 20rem;
+    border-radius:10px ;
+    color:  white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    border: 1px solid rgb(0, 179, 255);
+    color:  rgb(0, 179, 255);
+    transition: .3s;
+}
+.add{
+    margin: 5rem 0 0   0;
+    gap: 2rem;
+}
+.add>input {
+    padding: .5rem;
+    border: 0;
+    border-bottom: 2px solid gray;
+    margin-left: 1rem;
+    width: 13rem;
+}
